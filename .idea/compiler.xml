@@ -5,6 +5,9 @@
       <module name="com.smartdevicestore.device-catalog-service" options="-parameters" />
       <module name="com.smartdevicestore.device-catalog-service.main" options="-parameters" />
       <module name="com.smartdevicestore.device-catalog-service.test" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-service.main" options="-parameters" />
+      <module name="order-service.test" options="-parameters" />
     </option>
   </component>
 </project>
