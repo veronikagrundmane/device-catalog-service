@@ -8,11 +8,11 @@ spring:
         webflux:
           routes:
             - id: device-catalog-service-route
-              uri: http://localhost:8081
+              uri: http://device-catalog-service:8081
               predicates:
                 - Path=/api/devices/**
 
             - id: order-service-route
-              uri: http://localhost:8082
+              uri: http://order-service:8082
               predicates:
                 - Path=/api/orders/**
